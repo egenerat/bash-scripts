@@ -9,3 +9,9 @@ To recall last command argument
 ```
 !$
 ```
+
+
+Size of the directories in the current folder
+```
+du -sh *
+```
