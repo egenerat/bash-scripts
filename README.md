@@ -15,3 +15,8 @@ Size of the directories in the current folder
 ```
 du -sh *
 ```
+
+Read input from the user
+```
+read <variable name>
+```
