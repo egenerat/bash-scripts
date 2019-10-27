@@ -20,3 +20,11 @@ Read input from the user
 ```
 read <variable name>
 ```
+
+Print all integers between 1 and 10
+```
+for ((i=1;i<=10;i++)); 
+do 
+   echo $i
+done
+```
