@@ -28,3 +28,9 @@ do
    echo $i
 done
 ```
+
+Syntax for arithmetic operations
+```
+$ echo "$((7*5))"
+35
+```
