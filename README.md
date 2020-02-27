@@ -26,3 +26,8 @@ Syntax for arithmetic operations
 $ echo "$((7*5))"
 35
 ```
+
+Apply another command for each line
+```
+find . -name "folder" | xargs -L1 du -sh
+```
