@@ -10,6 +10,10 @@ To recall last command argument
 !$
 ```
 
+Redirect standard output (stdout) and standard error (stderr) to a file
+```
+command 2> file.txt
+```
 
 Size of the directories in the current folder
 ```
