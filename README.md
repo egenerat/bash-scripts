@@ -35,3 +35,8 @@ Apply another command for each line
 ```
 find . -name "folder" | xargs -L1 du -sh
 ```
+
+find follow symlinks
+```
+find -L . "filename"
+```
