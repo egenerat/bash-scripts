@@ -25,6 +25,12 @@ Read input from the user
 read <variable name>
 ```
 
+For example:
+```
+read version
+echo Deploying $version
+```
+
 Syntax for arithmetic operations
 ```
 $ echo "$((7*5))"
